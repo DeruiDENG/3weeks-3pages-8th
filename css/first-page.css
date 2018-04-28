@@ -1,3 +1,31 @@
 h1 {
     color: red;
 }
+
+.navigator-wrapper {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.navigator {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.navigator__item {
+    list-style: none;
+    font-size: 14px;
+    line-height: 1;
+    padding: 29px 30px;
+    letter-spacing: 1px;
+}
+
+.navigator__item + .navigator__item {
+    border-left: 1px white solid;
+}
+
+.navigator__item a {
+    text-decoration: none;
+    color: white;
+}
