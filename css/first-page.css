@@ -2,6 +2,10 @@ h1 {
     color: red;
 }
 
+.page-header {
+    background-image: url("../images/header.jpg");
+}
+
 .navigator-wrapper {
     background: rgba(0, 0, 0, 0.1);
 }
@@ -22,10 +26,58 @@ h1 {
 }
 
 .navigator__item + .navigator__item {
-    border-left: 1px white solid;
+    border-left: 1px rgba(255, 255, 255, 0.1) solid;
 }
 
 .navigator__item a {
     text-decoration: none;
     color: white;
+}
+
+.page-title {
+    padding: 172px 0;
+    text-align: center;
+    color: white;
+}
+
+.page-title__main {
+    font-weight: normal;
+    font-size: 80px;
+    letter-spacing: -2px;
+}
+
+.page-title__sub {
+    font-size: 22px;
+}
+
+.main-article {
+    margin: 0 auto;
+    max-width: 1200px;
+    color: #777;
+}
+
+.article-header {
+    text-align: center;
+    padding: 88px 0;
+}
+
+.article-header__title {
+    color: #6e6e6e;
+    font-size: 42px;
+    margin-top: 0;
+    font-weight: normal;
+    letter-spacing: -2px;
+}
+
+.article-header__description {
+    line-height: 2;
+}
+
+.article-header__description strong {
+    color: #000000;
+}
+
+.article-header__description a {
+    color: #80ba8d;
+    text-decoration: none;
 }
