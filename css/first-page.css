@@ -183,3 +183,15 @@ main {
     line-height: 2;
     font-size: 14px;
 }
+
+.motto-section {
+    background-color: darkgray;
+}
+
+.motto {
+    font-size: 26px;
+    text-align: center;
+    padding: 120px;
+    font-style: italic;
+    color: white;
+}
