@@ -21,7 +21,7 @@ main {
 }
 
 .page-header {
-    background-image: url("../images/header.jpg");
+    background: url("../images/header.jpg") fixed 100% 100%;
     background-size: cover;
 }
 
@@ -181,17 +181,82 @@ main {
 
 .gallery__item-description {
     line-height: 2;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .motto-section {
     background-color: darkgray;
 }
 
+.page-footer{
+    text-align: center;
+}
 .motto {
     font-size: 26px;
-    text-align: center;
     padding: 120px;
     font-style: italic;
+    color: #B4B4B4;
+}
+
+.contact-section {
+    background-color: #161616;
+}
+
+.contact {
+    padding: 72px;
+    border-bottom: 1px #222222 solid;
+}
+
+.contact__header {
     color: white;
+    margin: 0 0 30px;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.contact__desc {
+    font-size: 24px;
+    color: #444444;
+    font-weight: normal;
+    margin-bottom: 56px;
+}
+
+.contact-social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-social-links__item {
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-size: 100%;
+    margin: 0 12px;
+}
+
+.contact-social-links__item.bird {
+    background-image: url("../images/t.png");
+}
+
+.contact-social-links__item.facebook {
+    background-image: url("../images/f.png");
+}
+
+.contact-social-links__item.basketball {
+    background-image: url("../images/d.png");
+}
+
+.contact-social-links__item.twitter {
+    background-image: url("../images/t2.png");
+}
+
+.designer-info {
+    padding: 44px;
+    color: #2d2d2d;
+    font-weight: normal;
+}
+
+.designer-info a {
+    color: #424242;
+    text-decoration: none;
 }
