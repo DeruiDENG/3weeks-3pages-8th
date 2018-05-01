@@ -4,3 +4,6 @@
 3. Run first week page: `npm run week1`
 4. Run second week page: `npm run week2`
 3. Run third week page: `npm run week3`
+
+# Week 1
+http://docs.deeerui.com/3weeks-3pages-8th/week1.html
