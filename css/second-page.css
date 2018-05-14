@@ -2,8 +2,9 @@
     box-sizing: border-box;
 }
 
-main {
-    font-family: ff-tisa-web-pro, Georgia, sans-serif;
+html {
+    font-family: Corbel, sans-serif;
+    font-size: 12px;
 }
 
 .row {
@@ -37,7 +38,6 @@ main {
 }
 
 .navigator__item {
-    font-size: 0.75rem;
     font-weight: bold;
 }
 
@@ -59,7 +59,6 @@ main {
 .cover-image__description-line {
     padding: 8px;
     background-color: #F6F6F6;
-    font-size: 0.75rem;
     font-style: italic;
 }
 
@@ -72,4 +71,25 @@ main {
     padding: 8px;
     text-align: right;
     color: #555555;
+}
+
+.subscribe {
+    padding: 24px 12px;
+    border-bottom: 1px #E5E5E5 dashed;
+}
+
+.subscribe__description {
+    padding-left: 60px;
+    background: url("../images/week2/icon-mailinglist-32.png") 0 50% no-repeat;
+    background-size: 40px 40px;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.subscribe__input {
+    margin-right: 8px;
+}
+
+.subscribe__cta {
+    text-align: center;
 }
