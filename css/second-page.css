@@ -7,7 +7,7 @@ html {
     font-size: 12px;
 }
 
-main {
+header, main, footer {
     width: 100%;
     max-width: 1200px;
     padding: 0 8px;
@@ -26,6 +26,7 @@ main {
 }
 
 .navigator-wrapper {
+    width: 100%;
 }
 
 .navigator {
