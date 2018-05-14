@@ -7,3 +7,6 @@
 
 # Week 1
 http://docs.deeerui.com/3weeks-3pages-8th/week1.html
+
+# Week 2
+http://docs.deeerui.com/3weeks-3pages-8th/week2.html
