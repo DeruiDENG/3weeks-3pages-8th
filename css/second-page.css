@@ -94,3 +94,42 @@ header, main, footer {
 .subscribe__cta {
     text-align: center;
 }
+
+.articles {
+    padding: 24px 8px;
+}
+
+.article {
+    padding: 12px 8px;
+}
+
+.article__image{
+    margin-bottom: 12px;
+}
+
+.article__header {
+    display: block;
+    text-decoration: none;
+    color: #34AC98;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+
+.article__text {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+.article__footer {
+    font-size: 1.25rem;
+}
+
+.article__date {
+    color: #AAAAAA;
+}
+
+.article__details-link {
+    color: #34AC98;
+    text-decoration: none;
+}
