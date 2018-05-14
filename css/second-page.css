@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+main {
+    font-family: ff-tisa-web-pro, Georgia, sans-serif;
+}
+
 .row {
     width: 100%;
     max-width: 1200px;
@@ -34,9 +38,38 @@
 
 .navigator__item {
     font-size: 0.75rem;
+    font-weight: bold;
 }
 
 .navigator__item a {
     text-decoration: none;
     color: #34AC98;
+}
+
+.cover-image {
+    border-bottom: 1px #E5E5E5 dashed;
+}
+
+.cover-image__img {
+    background: url(../images/week2/foodsense.jpg) 100% 0;
+    background-size: cover;
+    height: 160px;
+}
+
+.cover-image__description-line {
+    padding: 8px;
+    background-color: #F6F6F6;
+    font-size: 0.75rem;
+    font-style: italic;
+}
+
+.cover-image__description-line--black {
+    background-color: black;
+    color: white;
+}
+
+.cover-image__footer {
+    padding: 8px;
+    text-align: right;
+    color: #555555;
 }
