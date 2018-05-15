@@ -7,15 +7,22 @@ html {
     font-size: 12px;
 }
 
-header, main, footer {
+.page-main, footer {
     width: 100%;
     max-width: 1200px;
     padding: 0 8px;
+    margin: 0 auto;
 }
 
 @media screen and (min-width: 520px) {
     html {
         font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .page-main {
+        display: flex;
     }
 }
 
@@ -50,6 +57,17 @@ header, main, footer {
 
     .navigator-wrapper {
         order: 1;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .page-header {
+        flex-direction: column;
+        margin-right: 24px;
+    }
+
+    .navigator-wrapper {
+        margin-top: 30px;
     }
 }
 
@@ -97,15 +115,32 @@ header, main, footer {
     }
 
     .navigator__item.a-list a {
-        background-image: url(../images/week2/nav-about.png);
+        background-image: url(../images/week2/nav-alist.png);
     }
 
-    .navigator__item.continue a {
-        background-image: url(../images/week2/nav-about.png);
+    .navigator__item.contribute a {
+        background-image: url(../images/week2/nav-contribute.png);
     }
 
     .navigator__item.about a {
         background-image: url(../images/week2/nav-about.png);
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .navigator {
+        flex-direction: column;
+    }
+
+    .navigator__item {
+        margin-left: 0;
+        margin-bottom: 8px;
+    }
+    .navigator__item a {
+        padding-top: 0;
+        padding-left: 48px;
+        background: no-repeat 0 50%;
+        line-height: 40px;
     }
 }
 
@@ -148,7 +183,7 @@ header, main, footer {
 
     .cover-image__description {
         position: absolute;
-        top: 55%
+        top: 60%
     }
 
     .cover-image__footer {
