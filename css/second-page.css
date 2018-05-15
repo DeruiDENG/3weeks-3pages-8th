@@ -114,7 +114,7 @@ header, main, footer {
 }
 
 .cover-image__img {
-    background: url(../images/week2/foodsense.jpg) 100% 0;
+    background: url(../images/week2/foodsense.jpg) 50% 50%;
     background-size: cover;
     height: 160px;
 }
@@ -136,6 +136,30 @@ header, main, footer {
     color: #555555;
 }
 
+@media screen and (min-width: 520px) {
+    .cover-image {
+        position: relative;
+        padding-bottom: 32px;
+    }
+
+    .cover-image__img {
+        height: 400px;
+    }
+
+    .cover-image__description {
+        position: absolute;
+        top: 55%
+    }
+
+    .cover-image__footer {
+        position: absolute;
+        right: 12px;
+        bottom: 44px;
+        padding: 4px;
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+}
+
 .subscribe {
     padding: 24px 12px;
     border-bottom: 1px #E5E5E5 dashed;
@@ -155,6 +179,18 @@ header, main, footer {
 
 .subscribe__cta {
     text-align: center;
+}
+
+@media screen and (min-width: 520px) {
+    .subscribe {
+        display: flex;
+        align-items: center;
+        padding: 12px;
+    }
+
+    .subscribe__description {
+        margin-right: 16px;
+    }
 }
 
 .articles {
@@ -197,6 +233,28 @@ header, main, footer {
 .article__details-link {
     color: #34AC98;
     text-decoration: none;
+}
+
+@media screen and (min-width: 520px) {
+    .articles {
+        display: flex;
+    }
+
+    .article {
+        flex: 1;
+    }
+
+    .article__header {
+        font-size: 1.25rem;
+    }
+
+    .article__text {
+        font-size: 1rem;
+    }
+
+    .article__footer {
+        font-size: 1rem;
+    }
 }
 
 .page-footer {
