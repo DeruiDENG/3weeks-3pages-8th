@@ -105,6 +105,9 @@ header, main, footer {
 
 .article__image{
     margin-bottom: 12px;
+    padding: 8px;
+    border: 1px #EEEEEE solid;
+    width: 100%;
 }
 
 .article__header {
@@ -132,4 +135,20 @@ header, main, footer {
 .article__details-link {
     color: #34AC98;
     text-decoration: none;
+}
+
+.page-footer {
+    display: flex;
+    padding: 16px 8px;
+    border-top: 1px #EEEEEE solid;
+}
+
+.page-footer__text {
+    line-height: 1.2;
+    color: #AAAAAA;
+}
+
+.page-footer__link {
+    text-decoration: none;
+    color: #34AC98;
 }
