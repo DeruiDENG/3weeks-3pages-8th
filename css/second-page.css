@@ -296,6 +296,7 @@ html {
     display: flex;
     padding: 16px 8px;
     border-top: 1px #EEEEEE solid;
+    justify-content: space-between;
 }
 
 .page-footer__text {
@@ -306,4 +307,14 @@ html {
 .page-footer__link {
     text-decoration: none;
     color: #34AC98;
+}
+
+.page-footer__social-item {
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.page-footer__social-item .iconfont {
+    font-size: 24px;
+    color: #AAAAAA;
 }
