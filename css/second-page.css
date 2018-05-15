@@ -14,7 +14,7 @@ html {
     margin: 0 auto;
 }
 
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 600px) {
     html {
         font-size: 16px;
     }
@@ -46,7 +46,7 @@ html {
     display: none;
 }
 
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 600px) {
     .page-header {
         flex-direction: row;
         padding-top: 16px;
@@ -126,7 +126,7 @@ html {
     color: #34AC98;
 }
 
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 600px) {
     .navigator {
         justify-content: flex-end;
         border-bottom: none;
@@ -208,7 +208,7 @@ html {
     color: #555555;
 }
 
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 600px) {
     .cover-image {
         position: relative;
         padding-bottom: 32px;
@@ -253,7 +253,7 @@ html {
     text-align: center;
 }
 
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 600px) {
     .subscribe {
         display: flex;
         align-items: center;
@@ -307,7 +307,7 @@ html {
     text-decoration: none;
 }
 
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 600px) {
     .articles {
         display: flex;
     }
@@ -356,7 +356,7 @@ html {
     color: #AAAAAA;
 }
 
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 600px) {
     .page-footer__social-item {
         margin-right: 8px;
     }
