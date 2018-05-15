@@ -13,6 +13,12 @@ header, main, footer {
     padding: 0 8px;
 }
 
+@media screen and (min-width: 520px) {
+    html {
+        font-size: 16px;
+    }
+}
+
 .page-header {
     display: flex;
     flex-direction: column;
@@ -27,6 +33,24 @@ header, main, footer {
 
 .navigator-wrapper {
     width: 100%;
+}
+
+@media screen and (min-width: 520px) {
+    .page-header {
+        flex-direction: row;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .site-logo {
+        width: 100px;
+        height: 100px;
+        padding: 0;
+    }
+
+    .navigator-wrapper {
+        order: 1;
+    }
 }
 
 .navigator {
@@ -45,6 +69,44 @@ header, main, footer {
 .navigator__item a {
     text-decoration: none;
     color: #34AC98;
+}
+
+@media screen and (min-width: 520px) {
+    .navigator {
+        justify-content: flex-end;
+        border-bottom: none;
+        padding: 0;
+    }
+
+    .navigator__item {
+        margin-left: 24px;
+    }
+
+    .navigator__item a {
+        display: block;
+        padding-top: 40px;
+        background: no-repeat 50% 0;
+    }
+
+    .navigator__item.tastemakers a {
+        background-image: url(../images/week2/nav-tastemakers.png);
+    }
+
+    .navigator__item.blog a {
+        background-image: url(../images/week2/nav-blog.png);
+    }
+
+    .navigator__item.a-list a {
+        background-image: url(../images/week2/nav-about.png);
+    }
+
+    .navigator__item.continue a {
+        background-image: url(../images/week2/nav-about.png);
+    }
+
+    .navigator__item.about a {
+        background-image: url(../images/week2/nav-about.png);
+    }
 }
 
 .cover-image {
