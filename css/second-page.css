@@ -19,6 +19,10 @@ a {
     color: #34AC98;
 }
 
+a:hover {
+    color: #298979;
+}
+
 @media screen and (min-width: 600px) {
     html {
         font-size: 16px;
@@ -101,6 +105,10 @@ a {
         padding: 8px 10px;
         color: #34AC98;
         cursor: pointer;
+    }
+
+    .page-header-contact__btn:hover {
+        color: #298979;
     }
 
     .page-header-contact__btn .iconfont {
@@ -256,6 +264,10 @@ a {
         color: #3BAF9C;
         background-color: #D9EFEC;
     }
+
+    .cover-image__tab:hover {
+        color: #298979;
+    }
 }
 
 .subscribe {
@@ -373,6 +385,10 @@ a {
 .page-footer__social-item .iconfont {
     font-size: 24px;
     color: #AAAAAA;
+}
+
+.page-footer__social-item:hover .iconfont {
+    color: #666666;
 }
 
 @media screen and (min-width: 600px) {
