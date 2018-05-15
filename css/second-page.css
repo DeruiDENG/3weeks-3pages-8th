@@ -14,6 +14,11 @@ html {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+    color: #34AC98;
+}
+
 @media screen and (min-width: 600px) {
     html {
         font-size: 16px;
@@ -32,10 +37,10 @@ html {
     align-items: center;
 }
 
-.site-logo{
-    width: 48vw;
-    height: 48vw;
-    padding: 32px;
+.site-logo {
+    width: 160px;
+    height: 160px;
+    padding: 16px;
 }
 
 .navigator-wrapper {
@@ -121,11 +126,6 @@ html {
     font-weight: bold;
 }
 
-.navigator__item a {
-    text-decoration: none;
-    color: #34AC98;
-}
-
 @media screen and (min-width: 600px) {
     .navigator {
         justify-content: flex-end;
@@ -192,7 +192,7 @@ html {
 }
 
 .cover-image__description-line {
-    padding: 8px;
+    padding: 8px 12px;
     background-color: #F6F6F6;
     font-style: italic;
 }
@@ -208,6 +208,10 @@ html {
     color: #555555;
 }
 
+.cover-image__tabs {
+    display: none;
+}
+
 @media screen and (min-width: 600px) {
     .cover-image {
         position: relative;
@@ -220,15 +224,37 @@ html {
 
     .cover-image__description {
         position: absolute;
-        top: 60%
+        top: 55%
     }
 
     .cover-image__footer {
         position: absolute;
         right: 12px;
-        bottom: 44px;
+        bottom: 80px;
         padding: 4px;
         background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .cover-image__tabs {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .cover-image__tab {
+        flex: 1;
+        padding: 8px;
+        color: #60BEAE;
+        background-color: #EFF8F7;
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .cover-image__tab.is-active {
+        color: #3BAF9C;
+        background-color: #D9EFEC;
     }
 }
 
@@ -251,6 +277,11 @@ html {
 
 .subscribe__cta {
     text-align: center;
+}
+
+.subscribe__btn {
+    font-weight: bold;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 600px) {
@@ -282,8 +313,6 @@ html {
 
 .article__header {
     display: block;
-    text-decoration: none;
-    color: #34AC98;
     font-size: 1.5rem;
     margin-bottom: 12px;
 }
@@ -300,11 +329,6 @@ html {
 
 .article__date {
     color: #AAAAAA;
-}
-
-.article__details-link {
-    color: #34AC98;
-    text-decoration: none;
 }
 
 @media screen and (min-width: 600px) {
@@ -339,11 +363,6 @@ html {
 .page-footer__text {
     line-height: 1.2;
     color: #AAAAAA;
-}
-
-.page-footer__link {
-    text-decoration: none;
-    color: #34AC98;
 }
 
 .page-footer__social-item {
